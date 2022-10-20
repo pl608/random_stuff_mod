@@ -8,7 +8,7 @@ minetest.register_node("random_stuff:bright_water_source", {
 	drawtype = "liquid",
 	tiles = {
 		{
-			name = "random_stuff_bright_water_source_animated.png^[brighten",
+			name = "default_river_water_source_animated.png^[brighten",
 			backface_culling = false,
 			animation = {
 				type = "vertical_frames",
@@ -18,7 +18,7 @@ minetest.register_node("random_stuff:bright_water_source", {
 			},
 		},
 		{
-			name = "random_stuff_bright_water_source_animated.png^[brighten",
+			name = "default_river_water_source_animated.png^[brighten",
 			backface_culling = true,
 			animation = {
 				type = "vertical_frames",
@@ -50,10 +50,10 @@ minetest.register_node("random_stuff:bright_water_source", {
 minetest.register_node("random_stuff:bright_water_flowing", {
 	description = S("Bright Water"),
 	drawtype = "flowingliquid",
-	tiles = {"random_stuff_bright_water.png"},
+	tiles = {"default_river_water.png"},
 	special_tiles = {
 		{
-			name = "random_stuff_bright_water_flowing_animated.png^[brighten",
+			name = "default_river_water_flowing_animated.png^[brighten",
 			backface_culling = false,
 			animation = {
 				type = "vertical_frames",
@@ -63,7 +63,7 @@ minetest.register_node("random_stuff:bright_water_flowing", {
 			},
 		},
 		{
-			name = "random_stuff_bright_water_flowing_animated.png^[brighten",
+			name = "default_river_water_flowing_animated.png^[brighten",
 			backface_culling = true,
 			animation = {
 				type = "vertical_frames",
