@@ -1,3 +1,4 @@
+[![ContentDB](https://content.minetest.net/packages/pl608/random_stuff/shields/title/)](https://content.minetest.net/packages/pl608/random_stuff/)[![ContentDB](https://content.minetest.net/packages/pl608/random_stuff/shields/downloads/)](https://content.minetest.net/packages/pl608/random_stuff/)
 # Random Stuff Mod
 adds 3 usable items along with a few more items used exclusively for crafting
 ### Usable Nodes/Wearables
