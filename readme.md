@@ -9,3 +9,6 @@ adds 3 usable items along with a few more items used exclusively for crafting
 * Weird Soul Thing(random_stuff:soul) This very creatively named item is used soully for crafting wings. It is found only in The Sole Stone ore block that is naturally occurring but rather rare
 * The Sole Stone(random_stuff:stone_with_soul) A naturally occurring ore stone that contains a soul for crafting wings. The texture was made from the Soul Thing with the alpha set from mese ore... looks odd though.
 * Springs(For Bouncy Things) (random_stuff:springs) crafted itself from 3 steel ingots this is used in conjunction with steel boots to make spring boots.
+### Commands
+* /crawl enables a head only mode that alows you to go into 1x1 areas
+* /stand disables /crawl and returns the player to the normal character(3d_armor character model is enabled if that mod is installed)
