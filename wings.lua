@@ -3,9 +3,9 @@ local S  = minetest.get_translator("random_stuff")
 armor:register_armor(":3d_armor:wings",{
     description = S("Wings"),
     inventory_image = "random_stuff_wings_v2.png",
-    groups = {armor_torso=1, armor_heal=6, armor_use=400, physics_gravity=-.9, immortal=1, not_in_creative_inventory=1},
+    groups = {armor_torso=1, armor_heal=999999,armor_water=1, armor_use=400, physics_gravity=-.9, imortal=1,immortal=1, not_in_creative_inventory=1},
     armor_groups = {fleshy=10},
-	damage_groups = {cracky=3, snappy=2, choppy=2, crumbly=1, level=2},
+	damage_groups = {cracky=3, snappy=2, choppy=2, crumbly=1, level=2}
 })
 
 minetest.register_craftitem("random_stuff:soul", {
@@ -13,14 +13,14 @@ minetest.register_craftitem("random_stuff:soul", {
     inventory_image = "random_stuff_soul.png",
     groups = {not_in_creative_inventory=1}
 })
-
+--crafts
 minetest.register_craft({
     output = "3d_armor:wings",
     recipe = {{"group:wool","                 ","group:wool"},
               {"group:wool","random_stuff:soul","group:wool"},
               {"group:wool","                 ","group:wool"}}
 })
-
+--extra
 minetest.register_ore({
     ore_type       = "scatter",
     ore            = "random_stuff:stone_with_soul",

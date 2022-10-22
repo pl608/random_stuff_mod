@@ -6,3 +6,5 @@ minetest.register_craftitem("random_stuff:is_loaded", {
 })
 dofile(minetest.get_modpath("random_stuff") .. "/bright_water.lua")
 dofile(minetest.get_modpath("random_stuff") .. "/wings.lua")
+dofile(minetest.get_modpath("random_stuff") .. "/boots.lua")
+dofile(minetest.get_modpath("random_stuff") .. "/crawl.lua")
